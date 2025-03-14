@@ -1,5 +1,6 @@
 fn main() {
     
+    
     // Unrecoverable Error with panic
     // There are two ways to cause panic in practice: by taking action that causes the code to panic (e.g, accessing an array past the end)
     // or by explicitly calling the 'panic!' macro. On both ocassion, the panics will print a failure message, unwind (clean up memory), clean up the stack, cleans up the data and quit.
